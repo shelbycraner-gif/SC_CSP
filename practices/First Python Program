@@ -1,4 +1,7 @@
 # S.C 7th First Python Project
 
-name = input("what is your name")
-output = print("hello, " + name + !")
+name = input("what is your name?")
+print("hello", name )
+fav_food = pasta
+
+print(fav_food)
