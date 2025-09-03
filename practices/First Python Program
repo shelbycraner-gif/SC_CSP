@@ -1,4 +1,4 @@
 # S.C 7th First Python Project
 
-print("what is your name?")
-print
+name = input("what is your name")
+output = print("hello, " + name + !")
