@@ -2,6 +2,3 @@
 
 name = input("what is your name?")
 print("hello", name )
-fav_food = (pasta)
-
-print(fav_food)
