@@ -18,6 +18,8 @@ print("welcome to my program")
 
 #Why do we have strings?
     # 
+#How do stupid proofing and sanitization relate to each other?
+    #
 #What is debugging?
     # 
 #How do you debug the different types of errors?
