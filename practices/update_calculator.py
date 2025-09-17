@@ -1,4 +1,7 @@
-# S.C 7th Budget Calculator
+# S.C 7th Update Calculator
+
+def total(amount, percentof_number):
+    print("Give me your monthly income")
 
 income = float(input("What is your monthly income?\n"))
 rent = float(input("What is your monthly rent?\n"))
@@ -6,7 +9,7 @@ utilities = float(input("How much do you pay for utilities?\n"))
 groceries = float(input("How much do you pay for groceries monthly?\n"))
 transportation = float(input("How much do you pay for transportations monthly?\n"))
 
-savings = income * 0.10
+savings = income * .10
 total_cost = rent + utilities + groceries + transportation + savings
 spending_money = income-total_cost
 rent_percent = (rent / income) * 100
