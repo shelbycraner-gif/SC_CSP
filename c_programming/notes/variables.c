@@ -6,13 +6,17 @@ int main(void){
     float pi = 3.14; //4 bytes, data type -> f
     double long_pi = 3.1415926; //8 bytes, data type -> lf
     char letter_grade; //1 byte -> c
-    char name[] = "Shelby"; //made a list of characters
+    char name[50]; //made a list of characters
     // user input
+    printf("What is your name:\n");
+    fgets(name, sizeof(name), stdin );
+
     printf("What is your grade percentage as a whole number?: ");
     scanf("%d", &grade);
 
     printf("What is your letter grade?");
     scanf(" %c", &letter_grade);
+    while (getchar() != '\n');
 
     printf("%s did it!\n", name);
     printf("You have a %d, in the class, that is an %c\n", grade, letter_grade);
@@ -38,7 +42,7 @@ int main(void){
 //In C, what is the purpose of specifying a data type when declaring a variable?
     // you have to set how much space it needs to save by putting what data type it is
 //List three common data types used in C and their corresponding format specifiers for printf().
-    // 
+    // %s creates a string, %c creates a single character, %d is a digit for an integer
 //How do you declare and initialize an integer variable named "age" with the value 25 in C?
     // int age = 25
 //What is the difference between printf() and scanf() functions in C?
