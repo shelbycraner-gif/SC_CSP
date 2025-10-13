@@ -26,7 +26,7 @@ int main(void){
 }
 /*
 What is a loop? 
-    something that is goes on
+    something that does goes on
 What are the two types of loops?
     for loop
     while loop
