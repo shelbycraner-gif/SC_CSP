@@ -16,18 +16,20 @@ int main(void){
 
     printf("How old are you: \n");
     scanf("%d", &age);
-    if(age <= 3){
+    if(age <= 4){
         printf("You should not start school or do anything!\n");
     }
 
-    else if(age >= 15) {
+    else if(age == 15) {
         printf("You should get your drivers permit\n");
-    }else if(age >= 16){
+    }else if(age == 16){
         printf("You should start driving!\n");
-    }else if(age >= 5){
+    }else if(age == 5){
         printf("You should be in school!\n");
+    }else if(age == 18){
+        printf("You should be voting!\n");
     }else{
-        printf("You are failing :(\n");
+        printf("You can't do anything.\n");
     }
 
     return 0;
