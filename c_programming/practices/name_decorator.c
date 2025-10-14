@@ -7,9 +7,11 @@ int main(void){
     printf("What is your name?\n");
     scanf("%s", name);
     char dec1[] = "<<:";
-    char dec2[] = ":>>";
+    char dec2 = ":>>";
     strcat(dec1, name);
-    strcat(dec1, dec2);
+    //printf(dec1);
+    strcat(dec1, ":>>");
+    //printf(dec1);
     printf("Hi! %s\n", dec1);
 
     return 0;
